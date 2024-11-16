@@ -9,6 +9,10 @@
         "@ionic/angular-toolkit:page": {
           "styleext": "scss",
           "standalone": true
+        },
+        "@ionic/angular-toolkit:component": {
+          "styleext": "scss",
+          "standalone": true
         }
       },
       "root": "",
@@ -167,8 +171,9 @@
       "standalone": true
     },
     "@ionic/angular-toolkit:page": {
-      "inlineTemplate": true,
       "styleext": "scss",
+      "inlineTemplate": true,
+      "standalone": true
     },
     "@angular-eslint/schematics:application": {
       "setParserOptionsProject": true
