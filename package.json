@@ -1,6 +1,6 @@
 {
-  "name": "starter-app",
-  "version": "0.0.0",
+  "name": "bien-rentre-app",
+  "version": "0.0.1",
   "scripts": {
     "ng": "ng",
     "start": "ionic serve",
