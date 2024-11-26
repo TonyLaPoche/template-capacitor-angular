@@ -7,7 +7,6 @@ import {IonContent, IonHeader, IonTitle, IonToolbar} from '@ionic/angular/standa
     selector: 'app-map',
     templateUrl: './map.page.html',
     styleUrls: ['./map.page.scss'],
-    standalone: true,
     imports: [IonContent, IonHeader, IonTitle, IonToolbar, CommonModule, FormsModule]
 })
 export class MapPage {

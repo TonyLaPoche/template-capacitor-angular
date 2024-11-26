@@ -7,7 +7,6 @@ import {flameOutline, peopleOutline} from 'ionicons/icons';
     selector: 'app-tabs',
     templateUrl: './tabs.page.html',
     styleUrls: ['./tabs.page.scss'],
-    standalone: true,
     imports: [IonTabs, IonTabBar, IonTabButton, IonIcon, IonLabel],
     changeDetection: ChangeDetectionStrategy.OnPush
 })

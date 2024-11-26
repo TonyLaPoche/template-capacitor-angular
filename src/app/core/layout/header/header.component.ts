@@ -5,7 +5,6 @@ import {IonHeader, IonTitle, IonToolbar} from "@ionic/angular/standalone";
     selector: 'app-header',
     templateUrl: './header.component.html',
     styleUrls: ['./header.component.scss'],
-    standalone: true,
     imports: [
         IonHeader,
         IonToolbar,

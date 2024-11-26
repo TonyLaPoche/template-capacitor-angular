@@ -4,22 +4,21 @@ import {HeaderComponent} from "./core/layout/header/header.component";
 import {NavigationEnd, Router} from "@angular/router";
 
 @Component({
-  selector: 'app-root',
-  standalone: true,
-  imports: [
-    IonApp,
-    HeaderComponent,
-    IonRouterOutlet
-  ],
-  template: `
+    selector: 'app-root',
+    imports: [
+        IonApp,
+        HeaderComponent,
+        IonRouterOutlet
+    ],
+    template: `
     <ion-app>
       <app-header [titlePage]="currentRoute()"></app-header>
           <ion-router-outlet></ion-router-outlet>
     </ion-app>
   `,
-  styles: `
+    styles: `
   `,
-  changeDetection: ChangeDetectionStrategy.OnPush
+    changeDetection: ChangeDetectionStrategy.OnPush
 })
 export class AppComponent implements OnInit {
   currentRoute = signal<string>('');
